@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/models/password/password_message_response.dart';
-import 'package:flutter_app/repositories/get_password_repository.dart';
+import 'package:flutter_app/repositories/password_repository.dart';
 
 class PasswordController extends ChangeNotifier {
   var _loadingState = false;
